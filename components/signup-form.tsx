@@ -10,7 +10,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export function LoginForm({
+export function SignUpForm({
   className,
   ...props
 }: React.ComponentProps<"div">) {
@@ -20,7 +20,7 @@ export function LoginForm({
         <CardHeader className="text-center">
           <CardTitle className="text-xl">Welcome</CardTitle>
           <CardDescription>
-            Login with your Email
+            Sign Up with your Email
           </CardDescription>
         </CardHeader>
         <CardContent>

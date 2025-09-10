@@ -1,6 +1,6 @@
 import { GalleryVerticalEnd } from "lucide-react"
 import Image from "next/image";
-import { SignUpForm } from "@/components/signup-form"
+import { LoginForm } from "@/components/login-form"
 import { AuroraBackground } from "@/components/ui/aurora-background"
 
 export default function LoginPage() {
@@ -21,7 +21,7 @@ export default function LoginPage() {
           </div>
           
       
-        <SignUpForm />
+        <LoginForm />
       </div>
     </AuroraBackground >
   )
