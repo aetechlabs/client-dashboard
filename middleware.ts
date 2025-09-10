@@ -1,1 +1,0 @@
-// For Protected routes and other middleware functions 
