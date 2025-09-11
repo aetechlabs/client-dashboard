@@ -40,17 +40,13 @@ export function SignUpForm({
     const form = e.currentTarget
     const data = new FormData(form)
 
-    // Build a plain object of form values for demonstration / submit
     const payload = Object.fromEntries(data.entries())
-    // In a real app: send payload to your registration API
-    // For now we'll just log it (or you can replace this with a fetch call)
-    // eslint-disable-next-line no-console
     console.log("Sign up payload:", payload)
     setError(null)
   }
 
   return (
-    <div className={cn("flex flex-col gap-6", className)} {...props}>
+    <div className={cn("flex flex-col gap-6 overflow-auto max-h-[90vh]", className)} {...props}>
       <Card>
         <CardHeader className="text-center">
           <CardTitle className="text-xl">Create your account</CardTitle>
