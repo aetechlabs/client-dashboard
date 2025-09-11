@@ -11,7 +11,7 @@ export default function LoginPage() {
           <div className="flex items-center flex-col justify-center rounded-md">
             <Image
                       className="block"
-                      src="/image 1.svg"
+                      src="/logo-dark.png"
                       alt="AETech Reaserch Labs Logo"
                       width={60}
                       height={10}
