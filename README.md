@@ -4,7 +4,7 @@
 > **Framework**: Next.js 15+ (App Router)  
 > **Deploy Target**: Vercel (Recommended)
 
-A secure, responsive, and high-performance dashboard built for **[Your Company Name]** to manage client accounts, analytics, and workflows. Designed with modern UX principles and optimized for speed and scalability.
+A secure, responsive, and high-performance dashboard built for **AETech Research Labs** to manage client accounts, analytics, and workflows. Designed with modern UX principles and optimized for speed and scalability.
 
 ---
 
@@ -30,7 +30,7 @@ Ensure you have the following installed:
 ### 2. Clone & Install
 
 ```bash
-git clone <your-company-repo-url>
+git clone github.com/aetechlabs
 cd client-dashboard
 
 # Install dependencies
