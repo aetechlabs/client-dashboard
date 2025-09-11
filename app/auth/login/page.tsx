@@ -2,8 +2,10 @@ import { GalleryVerticalEnd } from "lucide-react"
 import Image from "next/image";
 import { LoginForm } from "@/components/login-form"
 import { AuroraBackground } from "@/components/ui/aurora-background"
+import prisma from "@/lib/prisma";
 
 export default function LoginPage() {
+ 
   return (
     <AuroraBackground className="bg-transparent flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
       <div className="flex w-full max-w-sm flex-col justify-center items-center gap-6">
